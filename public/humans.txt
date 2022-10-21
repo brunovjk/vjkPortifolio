@@ -1,0 +1,39 @@
+#     #       # #    # 
+#     #       # #   #  
+#     #       # #  #   
+#     #       # ###    
+ #   #  #     # #  #   
+  # #   #     # #   #  
+   #     #####  #    # 
+
+The humans.txt file explains the team, technology,
+and graphic assets behind this site humanstxt.org.
+
+_______________________________________________________________________________
+
+BLOCKCHAIN | DEVELOPER
+
+Bruno Rocha
+Hand crafted design & web development
+
+Developer tools:
+Remix
+Hardhat
+Visual Code
+
+twitter.com/brunovjk
+github.com/brunovjk
+
+_______________________________________________________________________________
+
+TECHNOLOGY
+
+React
+Next.js
+
+_______________________________________________________________________________
+
+FONTS
+
+Gotham
+Hiragino Kaku Gothic
