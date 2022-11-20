@@ -29,11 +29,7 @@ _______________________________________________________________________________
 TECHNOLOGY
 
 React
-Next.js
-
-_______________________________________________________________________________
-
-FONTS
-
-Gotham
-Hiragino Kaku Gothic
+Solidity
+OpenZeppelin
+ChainLink
+UniSwap

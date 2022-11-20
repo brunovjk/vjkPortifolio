@@ -14,9 +14,11 @@ import { useFormInput } from 'hooks';
 import { useRef, useState } from 'react';
 import { cssProps, msToNum, numToMs } from 'utils/style';
 import styles from './Contact.module.css';
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
   const errorRef = useRef();
+  const form = useRef();
   const email = useFormInput('');
   const message = useFormInput('');
   const [sending, setSending] = useState(false);
@@ -33,30 +35,24 @@ export const Contact = () => {
     try {
       setSending(true);
 
-      const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/message`, {
-        method: 'POST',
-        mode: 'cors',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-          email: email.value,
-          message: message.value,
-        }),
-      });
-
-      const responseMessage = await response.json();
-
-      const statusError = getStatusError({
-        status: response?.status,
-        errorMessage: responseMessage?.error,
-        fallback: 'There was a problem sending your message',
-      });
-
-      if (statusError) throw new Error(statusError);
-
-      setComplete(true);
-      setSending(false);
+      emailjs
+        .sendForm(
+          process.env.NEXT_PUBLIC_SERVICE_ID,
+          process.env.NEXT_PUBLIC_TEMPLATE_ID,
+          form.current,
+          process.env.NEXT_PUBLIC_PUBLIC_KEY
+        )
+        .then(
+          result => {
+            console.log(result.text);
+            setComplete(true);
+            setSending(false);
+          },
+          error => {
+            console.log(error.text);
+            throw new Error(error);
+          }
+        );
     } catch (error) {
       setSending(false);
       setStatusError(error.message);
@@ -71,7 +67,7 @@ export const Contact = () => {
       />
       <Transition unmount in={!complete} timeout={1600}>
         {(visible, status) => (
-          <form className={styles.form} method="post" onSubmit={onSubmit}>
+          <form ref={form} className={styles.form} method="post" onSubmit={onSubmit}>
             <Heading
               className={styles.title}
               data-status={status}

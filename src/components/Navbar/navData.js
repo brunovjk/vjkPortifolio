@@ -15,18 +15,18 @@ export const navLinks = [
 
 export const socialLinks = [
   {
-    label: 'Twitter',
-    url: 'https://twitter.com/hamishMW',
-    icon: 'twitter',
-  },
-  {
-    label: 'Figma',
-    url: 'https://www.figma.com/@Hamish',
-    icon: 'figma',
-  },
-  {
     label: 'Github',
-    url: 'https://github.com/HamishMW',
+    url: 'https://github.com/brunovjk',
     icon: 'github',
+  },
+  {
+    label: 'Linkedin',
+    url: 'https://www.linkedin.com/in/bruno-rocha-28b05a102/',
+    icon: 'linkedin',
+  },
+  {
+    label: 'Twitter',
+    url: 'https://twitter.com/brunovjk',
+    icon: 'twitter',
   },
 ];

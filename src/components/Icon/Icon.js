@@ -5,6 +5,7 @@ import ArrowRight from './svg/arrow-right.svg';
 import Check from './svg/check.svg';
 import ChevronRight from './svg/chevron-right.svg';
 import Close from './svg/close.svg';
+import Linkedin from './svg/linkedin.svg';
 import Copy from './svg/copy.svg';
 import Error from './svg/error.svg';
 import Figma from './svg/figma.svg';
@@ -25,6 +26,7 @@ export const icons = {
   copy: Copy,
   error: Error,
   figma: Figma,
+  linkedin: Linkedin,
   github: Github,
   link: Link,
   menu: Menu,

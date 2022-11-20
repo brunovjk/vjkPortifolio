@@ -69,7 +69,7 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Blockchain Developer"
-        description="Blockchain portfolio of Bruno Rocha — Excited about the new world!"
+        description="Bruno Rocha Blockchain portfolio — Excited about the new world!"
       />
       <Intro
         id="intro"

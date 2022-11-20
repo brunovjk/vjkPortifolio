@@ -7,7 +7,6 @@ import { DecoderText } from 'components/DecoderText';
 import { Divider } from 'components/Divider';
 import { Heading } from 'components/Heading';
 import { Image } from 'components/Image';
-import { Link } from 'components/Link';
 import { Section } from 'components/Section';
 import { Text } from 'components/Text';
 import { Transition } from 'components/Transition';
@@ -22,12 +21,11 @@ const ProfileText = ({ visible, titleId }) => (
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       Hey, I’m Bruno. I’m a blockchain developer living in Brazil. I am a fan of
-      technology, entrepreneurship, and programming.
-      {/* I’m Bruno, currently I live in Brazil working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you’re interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>. */}
+      technology, entrepreneurship, programming, but also enjoy events, hotel and Tourism.
+      At the beginning of the pandemic, the hotel I was working at closed, with the
+      resources I accumulated, it was possible to stop and study, prepare myself, to
+      follow my dream of participating in a project that matters, with group of people
+      fascinated by technology. I’m ready. brunovjk@brunovjk.com
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
       In my spare time I like to play League of Legends, watch comedy videos. I’m always

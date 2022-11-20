@@ -18,9 +18,9 @@ export const Default = () => (
       </TableHead>
       <TableBody>
         <TableRow>
-          <TableCell>USA</TableCell>
-          <TableCell>Washington, D.C.</TableCell>
-          <TableCell>309 million</TableCell>
+          <TableCell>Brazil</TableCell>
+          <TableCell>Brasilia</TableCell>
+          <TableCell>214 million</TableCell>
         </TableRow>
         <TableRow>
           <TableCell>Sweden</TableCell>
