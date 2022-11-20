@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Personal portfolio
 
 [![Site preview](/public/site-preview.png)](https://brunovjk.com)
@@ -63,3 +64,6 @@ I do not give permission to present any of my projects as your own (this is bein
   
   It's set up using a serverless function with AWS Lambda. You'll need to set up an AWS account and deploy the function. [Refer to this issue for more details](https://github.com/HamishMW/portfolio/issues/21#issuecomment-958727113).
 </details>
+=======
+<p>#Bruno Rocha - Blockchain Developer</p> <p><a href="https://brunovjk.com/">https://brunovjk.com/</a></p>
+>>>>>>> aa0c39c3cc4b0891b97f22b589c981609dfe6754
