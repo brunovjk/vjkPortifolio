@@ -7,9 +7,9 @@ import gamestackTexture from 'assets/gamestack-login.jpg';
 import sliceTextureLarge from 'assets/slice-app-large.jpg';
 import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
 import sliceTexture from 'assets/slice-app.jpg';
-import sprTextureLarge from 'assets/spr-lesson-builder-dark-large.jpg';
-import sprTexturePlaceholder from 'assets/spr-lesson-builder-dark-placeholder.jpg';
-import sprTexture from 'assets/spr-lesson-builder-dark.jpg';
+import balanceListLarge from 'assets/balance-list-dark-large.jpg';
+import balanceListPlaceholder from 'assets/balance-list-dark-placeholder.jpg';
+import balanceList from 'assets/balance-list-dark.jpg';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -82,19 +82,19 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="vjkNFT is a on-chain NFT͟ Collection"
-        description="vjkNFT is a dApp developed by Bruno Rocha. Our application consists of a Smart Contract and a React App to interact with the blockchain, where this contract is deployed."
-        buttonText1="Live"
-        buttonLink1="https://vjknft.brunovjk.com/"
+        title="VjkSwap - ERC20 Playground"
+        description="An app to interact with some common ERC20 functions: check Balance, Send, Wrap and unWrap, Swap (powered by Uniswap) and check transaction history."
+        buttonText1="Details"
+        buttonLink1="/projects/vjkswap"
         buttonText2="Github"
-        buttonLink2="https://github.com/brunovjk/vjkNFT"
+        buttonLink2="https://github.com/brunovjk/vjkswap"
         model={{
           type: 'laptop',
-          alt: 'vjkNFT NFT͟ Collection',
+          alt: 'VjkSwap - ERC20 Playground',
           textures: [
             {
-              srcSet: [sprTexture, sprTextureLarge],
-              placeholder: sprTexturePlaceholder,
+              srcSet: [balanceList, balanceListLarge],
+              placeholder: balanceListPlaceholder,
             },
           ],
         }}
