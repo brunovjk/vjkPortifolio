@@ -130,15 +130,6 @@ export const VjkSwap = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
-              <SegmentedControl
-                currentIndex={themes.indexOf(themeId)}
-                onChange={handleThemeChange}
-              >
-                <SegmentedControlOption>Dark theme</SegmentedControlOption>
-                <SegmentedControlOption>Light theme</SegmentedControlOption>
-              </SegmentedControl>
-            </ProjectTextRow>
-            <ProjectTextRow>
               <ProjectSectionHeading>Specifications</ProjectSectionHeading>
               <ProjectSectionText>
                 Initially we will only store some Ethereum Mainnet and Goerli address
@@ -160,7 +151,9 @@ export const VjkSwap = () => {
               <ProjectSectionText>
                 - Store list of some popular ERC 20 tokens.
               </ProjectSectionText>
-              <ProjectSectionText>- Button to add compatible ERC20.</ProjectSectionText>
+              <ProjectSectionText>
+                - Button to add compatible ERC20 token.
+              </ProjectSectionText>
               <ProjectSectionText>
                 With web frameworks like ether js and a provider (we will use the
                 extension wallet provider), we can interact with any smart contract, we
@@ -169,6 +162,15 @@ export const VjkSwap = () => {
                 balanceOf, transfer and event Transfer, we only need the address tokens we
                 want to use.
               </ProjectSectionText>
+            </ProjectTextRow>
+            <ProjectTextRow>
+              <SegmentedControl
+                currentIndex={themes.indexOf(themeId)}
+                onChange={handleThemeChange}
+              >
+                <SegmentedControlOption>Dark theme</SegmentedControlOption>
+                <SegmentedControlOption>Light theme</SegmentedControlOption>
+              </SegmentedControl>
             </ProjectTextRow>
             <Image
               raised
