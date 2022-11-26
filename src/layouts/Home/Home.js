@@ -1,15 +1,20 @@
-import gamestackTexture2Large from 'assets/gamestack-list-large.jpg';
-import gamestackTexture2Placeholder from 'assets/gamestack-list-placeholder.jpg';
-import gamestackTexture2 from 'assets/gamestack-list.jpg';
-import gamestackTextureLarge from 'assets/gamestack-login-large.jpg';
-import gamestackTexturePlaceholder from 'assets/gamestack-login-placeholder.jpg';
-import gamestackTexture from 'assets/gamestack-login.jpg';
-import sliceTextureLarge from 'assets/slice-app-large.jpg';
-import sliceTexturePlaceholder from 'assets/slice-app-placeholder.jpg';
-import sliceTexture from 'assets/slice-app.jpg';
-import balanceListLarge from 'assets/balance-list-dark-large.jpg';
-import balanceListPlaceholder from 'assets/balance-list-dark-placeholder.jpg';
-import balanceList from 'assets/balance-list-dark.jpg';
+import saudevaporLatesCollectionLarge from 'assets/saudevapor-latest-collection.png';
+import saudevaporLatesCollectionPlaceholder from 'assets/saudevapor-latest-collection-placeholder.png';
+import saudevaporLatesCollection from 'assets/saudevapor-latest-collection.png';
+import saudevaporCandyMachineLarge from 'assets/saudevapor-candy-machine.png';
+import saudevaporCandyMachinePlaceholder from 'assets/saudevapor-candy-machine-placeholder.png';
+import saudevaporCandyMachine from 'assets/saudevapor-candy-machine.png';
+
+import vjkswapHeroLarge from 'assets/vjkswap-hero.jpg';
+import vjkswapHeroPlaceholder from 'assets/vjkswap-hero-placeholder.jpg';
+import vjkswapHero from 'assets/vjkswap-hero.jpg';
+import vjkswapBalanceListMobileLarge from 'assets/vjkswap-balance-mobile.jpg';
+import vjkswapBalanceListMobilePlaceholder from 'assets/vjkswap-balance-mobile-placeholder.jpg';
+import vjkswapBalanceListMobile from 'assets/vjkswap-balance-mobile.jpg';
+
+import vjknftNftPageLarge from 'assets/vjknft-nft-page.png';
+import vjknftNftPagePlaceholder from 'assets/vjknft-nft-page-placeholder.png';
+import vjknftNftPage from 'assets/vjknft-nft-page.png';
 import { Footer } from 'components/Footer';
 import { Meta } from 'components/Meta';
 import { Intro } from 'layouts/Home/Intro';
@@ -18,7 +23,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Fanatic', 'Engineer', 'Dreamer', 'Designer'];
+const disciplines = ['Developer', 'Dreamer'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -89,12 +94,16 @@ export const Home = () => {
         buttonText2="Github"
         buttonLink2="https://github.com/brunovjk/vjkswap"
         model={{
-          type: 'laptop',
+          type: 'phone',
           alt: 'VjkSwap - ERC20 Playground',
           textures: [
             {
-              srcSet: [balanceList, balanceListLarge],
-              placeholder: balanceListPlaceholder,
+              srcSet: [vjkswapBalanceListMobile, vjkswapBalanceListMobileLarge],
+              placeholder: vjkswapBalanceListMobilePlaceholder,
+            },
+            {
+              srcSet: [vjkswapHero, vjkswapHeroLarge],
+              placeholder: vjkswapHeroPlaceholder,
             },
           ],
         }}
@@ -105,23 +114,19 @@ export const Home = () => {
         sectionRef={projectTwo}
         visible={visibleSections.includes(projectTwo.current)}
         index={2}
-        title="SaudeVapor"
-        description="Cannabis contains at least 49 active ingredients/cannabinoids, which provide diverse effects on our body. I created a Unique Collection, using these 49 components and their Main Characteristics and Possible Therapeutic Benefits."
-        buttonText1="Live"
-        buttonLink1="https://saudevapor.com/"
+        title="vjkNFT - Automatic NFT Generator"
+        description="A group of smart contracts, working together to create a single, unique NFT. Chainlink Automation enables conditional execution of your smart contracts functions."
+        buttonText1="Details"
+        buttonLink1="/projects/vjknft"
         buttonText2="Github"
-        buttonLink2="https://github.com/brunovjk/SaudeVapor"
+        buttonLink2="https://github.com/brunovjk/vjknft"
         model={{
-          type: 'phone',
-          alt: 'SaudeVapor',
+          type: 'laptop',
+          alt: 'vjkNFT',
           textures: [
             {
-              srcSet: [gamestackTexture, gamestackTextureLarge],
-              placeholder: gamestackTexturePlaceholder,
-            },
-            {
-              srcSet: [gamestackTexture2, gamestackTexture2Large],
-              placeholder: gamestackTexture2Placeholder,
+              srcSet: [vjknftNftPage, vjknftNftPageLarge],
+              placeholder: vjknftNftPagePlaceholder,
             },
           ],
         }}
@@ -131,17 +136,23 @@ export const Home = () => {
         sectionRef={projectThree}
         visible={visibleSections.includes(projectThree.current)}
         index={3}
-        title="Chainlink Fall 2022 Hackathon"
-        description="Working in a awesome project. News soon."
-        buttonText1="Join the Hackathon"
-        buttonLink1="https://chain.link/hackathon"
+        title="SaudeVapor - A Real Project"
+        description="The main purpose of this project is to Bring together People interested in Cannabis, Harm Reduction and Health Research, Using web3 Tools and Technologies."
+        buttonText1="Details"
+        buttonLink1="/projects/saudevapor"
+        buttonText2="Github"
+        buttonLink2="https://github.com/brunovjk/SaudeVapor"
         model={{
-          type: 'laptop',
-          alt: 'Chainlink Fall 2022 Hackathon',
+          type: 'phone',
+          alt: 'SaudeVapor A Real Project',
           textures: [
             {
-              srcSet: [sliceTexture, sliceTextureLarge],
-              placeholder: sliceTexturePlaceholder,
+              srcSet: [saudevaporLatesCollection, saudevaporLatesCollectionLarge],
+              placeholder: saudevaporLatesCollectionPlaceholder,
+            },
+            {
+              srcSet: [saudevaporCandyMachine, saudevaporCandyMachineLarge],
+              placeholder: saudevaporCandyMachinePlaceholder,
             },
           ],
         }}

@@ -1,18 +1,18 @@
 import backgroundSprLarge from 'assets/spr-background-large.jpg';
 import backgroundSprPlaceholder from 'assets/spr-background-placeholder.jpg';
 import backgroundSpr from 'assets/spr-background.jpg';
-import utilsMobileViewDarkLarge from 'assets/utils-mobile-view-dark-large.jpg';
-import utilsMobileViewDarkPlaceholder from 'assets/utils-mobile-view-dark-placeholder.jpg';
-import utilsMobileViewDark from 'assets/utils-mobile-view-dark.jpg';
-import utilsMobileViewLightLarge from 'assets/utils-mobile-view-light-large.jpg';
-import utilsMobileViewLightPlaceholder from 'assets/utils-mobile-view-light-placeholder.jpg';
-import utilsMobileViewLight from 'assets/utils-mobile-view-light.jpg';
-import imageBalanceListDarkLarge from 'assets/balance-list-dark-large.jpg';
-import imageBalanceListDarkPlaceholder from 'assets/balance-list-dark-placeholder.jpg';
-import imageBalanceListDark from 'assets/balance-list-dark.jpg';
-import imageBalanceListLightLarge from 'assets/balance-list-light-large.jpg';
-import imageBalanceListLightPlaceholder from 'assets/balance-list-light-placeholder.jpg';
-import imageBalanceListLight from 'assets/balance-list-light.jpg';
+import utilsMobileViewDarkLarge from 'assets/vjkswap-send-swap-history-dark.jpg';
+import utilsMobileViewDarkPlaceholder from 'assets/vjkswap-send-swap-history-dark-placeholder.jpg';
+import utilsMobileViewDark from 'assets/vjkswap-send-swap-history-dark.jpg';
+import utilsMobileViewLightLarge from 'assets/vjkswap-send-swap-history-light.jpg';
+import utilsMobileViewLightPlaceholder from 'assets/vjkswap-send-swap-history-light-placeholder.jpg';
+import utilsMobileViewLight from 'assets/vjkswap-send-swap-history-light.jpg';
+import imageBalanceListDarkLarge from 'assets/vjkswap-balance-desktop-dark.png';
+import imageBalanceListDarkPlaceholder from 'assets/vjkswap-balance-desktop-dark-placeholder.png';
+import imageBalanceListDark from 'assets/vjkswap-balance-desktop-dark.png';
+import imageBalanceListLightLarge from 'assets/vjkswap-balance-desktop-light.png';
+import imageBalanceListLightPlaceholder from 'assets/vjkswap-balance-desktop-light-placeholder.png';
+import imageBalanceListLight from 'assets/vjkswap-balance-desktop-light.png';
 import functionListLarge from 'assets/functionList-large.jpg';
 import functionListPlaceholder from 'assets/functionList-placeholder.jpg';
 import functionList from 'assets/functionList.jpg';
@@ -130,6 +130,15 @@ export const VjkSwap = () => {
               sizes="100vw"
             />
             <ProjectTextRow>
+              <SegmentedControl
+                currentIndex={themes.indexOf(themeId)}
+                onChange={handleThemeChange}
+              >
+                <SegmentedControlOption>Dark theme</SegmentedControlOption>
+                <SegmentedControlOption>Light theme</SegmentedControlOption>
+              </SegmentedControl>
+            </ProjectTextRow>
+            <ProjectTextRow>
               <ProjectSectionHeading>Specifications</ProjectSectionHeading>
               <ProjectSectionText>
                 Initially we will only store some Ethereum Mainnet and Goerli address
@@ -163,15 +172,7 @@ export const VjkSwap = () => {
                 want to use.
               </ProjectSectionText>
             </ProjectTextRow>
-            <ProjectTextRow>
-              <SegmentedControl
-                currentIndex={themes.indexOf(themeId)}
-                onChange={handleThemeChange}
-              >
-                <SegmentedControlOption>Dark theme</SegmentedControlOption>
-                <SegmentedControlOption>Light theme</SegmentedControlOption>
-              </SegmentedControl>
-            </ProjectTextRow>
+
             <Image
               raised
               key={themeId}

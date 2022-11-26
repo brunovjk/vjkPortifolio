@@ -90,9 +90,11 @@ export const Contact = () => {
               autoComplete="email"
               label="Your Email"
               type="email"
+              name="user_email"
               maxLength={512}
               {...email}
             />
+
             <Input
               required
               multiline
@@ -101,6 +103,7 @@ export const Contact = () => {
               style={getDelay(tokens.base.durationS, initDelay)}
               autoComplete="off"
               label="Message"
+              name="message"
               maxLength={4096}
               {...message}
             />

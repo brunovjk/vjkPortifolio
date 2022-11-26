@@ -96,7 +96,7 @@
 
   &[data-device='laptop'] {
     top: 6%;
-    left: 14%;
+    right: 18%;
 
     @media (--mediaDesktop) {
       --width: 180%;

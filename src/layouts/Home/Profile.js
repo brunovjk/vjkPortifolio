@@ -1,5 +1,5 @@
 import profileKatakana from 'assets/katakana-profile.svg?url';
-import profileImgLarge from 'assets/profile-large.jpg';
+import profileImgLarge from 'assets/profile.jpg';
 import profileImgPlaceholder from 'assets/profile-placeholder.jpg';
 import profileImg from 'assets/profile.jpg';
 import { Button } from 'components/Button';
@@ -17,19 +17,17 @@ import styles from './Profile.module.css';
 const ProfileText = ({ visible, titleId }) => (
   <Fragment>
     <Heading className={styles.title} data-visible={visible} level={3} id={titleId}>
-      <DecoderText text="Hi there" start={visible} delay={500} />
+      <DecoderText text="Hey, I’m Bruno" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      Hey, I’m Bruno. I’m a blockchain developer living in Brazil. I am a fan of
-      technology, entrepreneurship, programming, but also enjoy events, hotel and Tourism.
-      At the beginning of the pandemic, the hotel I was working at closed, with the
-      resources I accumulated, it was possible to stop and study, prepare myself, to
-      follow my dream of participating in a project that matters, with group of people
-      fascinated by technology. I’m ready. brunovjk@brunovjk.com
+      A Brazilian Blockchain Developer. I’m fan of technology, entrepreneurship,
+      programming, but I also enjoy events, hotel services and tourism.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      In my spare time I like to play League of Legends, watch comedy videos. I’m always
-      down for hearing about new projects, so feel free to drop me a line.
+      At the beginning of the COVID-19 pandemic, the hotel where I worked closed, and with
+      the resources I accumulated it was possible to stop and study, prepare to follow my
+      dream of participating in a project that matters, with a group of people fascinated
+      by technology. I’m ready.
     </Text>
   </Fragment>
 );
@@ -83,7 +81,7 @@ export const Profile = ({ id, visible, sectionRef }) => {
                   placeholder={profileImgPlaceholder}
                   srcSet={[profileImg, profileImgLarge]}
                   sizes={`(max-width: ${media.mobile}px) 100vw, 480px`}
-                  alt="Me standing in front of the Cern, Sexy without being vulgar"
+                  alt="Facebook profile picture"
                 />
                 <svg
                   aria-hidden="true"
