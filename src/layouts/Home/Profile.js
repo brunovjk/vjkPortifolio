@@ -24,10 +24,7 @@ const ProfileText = ({ visible, titleId }) => (
       programming, but I also enjoy events, hotel services and tourism.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      At the beginning of the COVID-19 pandemic, the hotel where I worked closed, and with
-      the resources I accumulated it was possible to stop and study, prepare to follow my
-      dream of participating in a project that matters, with a group of people fascinated
-      by technology. I’m ready.
+    After the first quarantine for COVID-19, I took a break from work and with the resources I accumulated, it was possible to stay at home and study, preparing myself to follow my dream of participating in a project that matters, with a group of people fascinated by technology. I’m ready.
     </Text>
   </Fragment>
 );

@@ -23,7 +23,7 @@ import { ProjectSummary } from 'layouts/Home/ProjectSummary';
 import { useEffect, useRef, useState } from 'react';
 import styles from './Home.module.css';
 
-const disciplines = ['Developer', 'Dreamer'];
+const disciplines = ['Developer', 'Dreamer', 'Designer'];
 
 export const Home = () => {
   const [visibleSections, setVisibleSections] = useState([]);
@@ -74,7 +74,7 @@ export const Home = () => {
     <div className={styles.home}>
       <Meta
         title="Blockchain Developer"
-        description="Bruno Rocha Blockchain portfolio — Excited about the new world!"
+        description="Bruno Rocha Portfolio — Excited about the new world!"
       />
       <Intro
         id="intro"

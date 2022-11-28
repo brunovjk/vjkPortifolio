@@ -1,6 +1,6 @@
-import medicalResearchLarge from 'assets/saudevapor-background.jpg';
-import medicalResearchPlaceholder from 'assets/saudevapor-background-placeholder.jpg';
-import medicalResearch from 'assets/saudevapor-background.jpg';
+import saudevaporBackgroundLarge from 'assets/saudevapor-background.jpg';
+import saudevaporBackgroundPlaceholder from 'assets/saudevapor-background-placeholder.jpg';
+import saudevaporBackground from 'assets/saudevapor-background.jpg';
 import saudevaporArticlesLarge from 'assets/saudevapor-articles.png';
 import saudevaporArticlesPlaceholder from 'assets/saudevapor-articles-placeholder.png';
 import saudevaporArticles from 'assets/saudevapor-articles.png';
@@ -22,7 +22,7 @@ import saudevaporNftLearnMoreLarge from 'assets/saudevapor-nft-learn-more.png';
 import saudevaporNftLearnMore from 'assets/saudevapor-nft-learn-more.png';
 import saudevaporContactLarge from 'assets/saudevapor-contact.png';
 import saudevaporContact from 'assets/saudevapor-contact.png';
-import volkiharSlidePlaceholder from 'assets/volkihar-slide-placeholder.jpg';
+import slidePlaceholder from 'assets/saudevapor-search-placeholder.png';
 import { Footer } from 'components/Footer';
 import { Image } from 'components/Image';
 import { Meta } from 'components/Meta';
@@ -77,8 +77,8 @@ export function SaudeVapor() {
       />
       <ProjectContainer>
         <ProjectBackground
-          srcSet={[medicalResearch, medicalResearchLarge]}
-          placeholder={medicalResearchPlaceholder}
+          srcSet={[saudevaporBackground, saudevaporBackgroundLarge]}
+          placeholder={saudevaporBackgroundPlaceholder}
           opacity={0.5}
         />
         <ProjectHeader
@@ -195,26 +195,26 @@ export function SaudeVapor() {
         <ProjectSection>
           <ProjectSectionContent>
             <Carousel
-              placeholder={volkiharSlidePlaceholder}
+              placeholder={slidePlaceholder}
               images={[
                 {
                   srcSet: [saudevaporSearch, saudevaporSearchLarge],
                   sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,
-                  alt: 'A female character wearing the black coloured armor set.',
+                  alt: 'Saudevapor Search page.',
                 },
                 {
                   srcSet: [saudevaporNftLearnMore, saudevaporNftLearnMoreLarge],
                   sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,
-                  alt: 'A close up of the custom gauntlets design.',
+                  alt: 'Saudevapor Nft Learn More page',
                 },
                 {
                   srcSet: [saudevaporContact, saudevaporContactLarge],
                   sizes: `(max-width: ${media.mobile}px) 100vw, (max-width: ${media.tablet}px) 100vw, 1096px`,
-                  alt: 'A female character wielding a sword and wearing the red coloured armor.',
+                  alt: 'Saudevapor Contact page.',
                 },
               ]}
-              width={1920}
-              height={1080}
+              width={1366}
+              height={629}
             />
           </ProjectSectionContent>
         </ProjectSection>
