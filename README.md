@@ -1,66 +1,32 @@
-# Personal portfolio
+<img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
-My design portfolio to showcase a few projects. Built with [Next.js](https://nextjs.org/), [Three.js](https://threejs.org/), and [Framer Motion](https://www.framer.com/motion/). View the [live site](https://brunovjk.com).
+<p align="left"> 
+  <strong>Bruo Rocha</strong> A Brazilian Blockchain Developer.<br>
+ After the first quarantine for COVID-19, I took a break from work and with the
+resources I accumulated, it was possible to stay at home and study, preparing
+myself for my new career.
 
-## Install & run
+</p>
 
-Make sure you have nodejs `18.0.0` or higher and npm `8.6.0` or higher installed. Install dependencies with:
+<p align="left">
+  🦄 Linguagens: <strong>Coloque as linguagens que você desenvolve.</strong>
+</p>
 
-```bash
-npm install
-```
+<p align="left">
+  💼 Ferramentas: <strong>Coloque as suas ferramentas de trabalho.</strong>
+</p>
 
-Once it's done start up a local server with:
+<p align="left">
+  💌 Aqui vai uma mensagem para entrar em contato com você: ⤵️
+</p>
 
-```bash
-npm run dev
-```
+<p align="left">
+  <a href="#" alt="Gmail">
+  <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=brunovjk@brunovjk.com" /></a>
 
-To create a production build:
+  <a href="#" alt="Linkedin">
+  <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=www.linkedin.com/in/bruno-rocha-28b05a102" /></a>
 
-```bash
-npm run build
-```
-
-## Deployment
-
-I've set up the site using AWS for hosting and serverless functions. You'll need an AWS account and the AWS CLI installed in order to deploy.
-
-Deploy the site to s3:
-
-```bash
-npm run deploy
-```
-
-Deploy serverless functions:
-
-```bash
-cd functions
-```
-
-```bash
-npm run deploy:api
-```
-
-## Permissions
-
-I'm cool with anyone using the code or parts of the code for their own site, it is open source so people can learn from it and adapt it. However, I would encourage you to modify the theme and components it to make it your own. If you are using the site's design largely unmodified, I'd appreciate being credited as the designer of the website.
-
-I do not give permission to present any of my projects as your own (this is being actively used as my portfolio site and these are my real projects I've worked on).
-
-## FAQs
-
-<details>
-  <summary>How do I change the color on the <code>DisplacementSphere</code> (blobby rotating thing in the background).</summary>
-  
-  You'll need to edit the fragment shader. [Check out this issue for more details](https://github.com/HamishMW/portfolio/issues/19#issuecomment-870996615).
-</details>
-
-<details>
-  <summary>How do I get the contact form to work?</summary>
-  
-  It's set up using a serverless function with AWS Lambda. You'll need to set up an AWS account and deploy the function. [Refer to this issue for more details](https://github.com/HamishMW/portfolio/issues/21#issuecomment-958727113).
-</details>
-=======
-<p>#Bruno Rocha - Blockchain Developer</p> <p><a href="https://brunovjk.com/">https://brunovjk.com/</a></p>
->>>>>>> aa0c39c3cc4b0891b97f22b589c981609dfe6754
+  <a href="#" alt="Instagram">
+  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=www.instagram.com/brunovjk/"/></a>
+</p>  
