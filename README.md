@@ -9,7 +9,7 @@ myself for my new career.
 </p>
 
 <p align="left">
-  🦄 Linguagens: <strong>Coloque as linguagens que você desenvolve.</strong>
+  🦄 <strong>UI components - Object Oriented Programming - web3</strong>
 </p>
 
 <p align="left">
@@ -28,5 +28,5 @@ myself for my new career.
   <img src="https://img.shields.io/badge/-Linkedin-0e76a8?style=flat-square&logo=Linkedin&logoColor=white&link=www.linkedin.com/in/bruno-rocha-28b05a102" /></a>
 
   <a href="#" alt="Instagram">
-  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=www.instagram.com/brunovjk/"/></a>
+  <img src="https://img.shields.io/badge/-Instagram-DF0174?style=flat-square&labelColor=DF0174&logo=instagram&logoColor=white&link=[www.instagram.com/brunovjk/](https://www.instagram.com/brunovjk/)"/></a>
 </p>  
