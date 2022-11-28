@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="left"> 
-  <strong>Bruo Rocha</strong> A Brazilian Blockchain Developer.<br>
+  <strong>Bruno Rocha</strong> A Brazilian Blockchain Developer.<br>
  After the first quarantine for COVID-19, I took a break from work and with the
 resources I accumulated, it was possible to stay at home and study, preparing
 myself for my new career.
