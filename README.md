@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Personal portfolio
 
 [![Site preview](/public/site-preview.png)](https://brunovjk.com)
