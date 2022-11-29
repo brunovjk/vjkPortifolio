@@ -7,7 +7,7 @@
 myself for my new career.
   
 Please check my portfolio:
-brunovjk.web.app
+https://brunovjk.web.app/
 
 </p>
 
