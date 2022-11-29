@@ -21,7 +21,7 @@ export const socialLinks = [
   },
   {
     label: 'Linkedin',
-    url: 'https://www.linkedin.com/in/bruno-rocha-28b05a102/',
+    url: 'https://www.linkedin.com/in/brunovjk/',
     icon: 'linkedin',
   },
   {

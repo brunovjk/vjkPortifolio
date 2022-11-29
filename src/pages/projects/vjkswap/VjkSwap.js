@@ -76,7 +76,7 @@ export const VjkSwap = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://www.vjkswap.brunovjk.com/"
+          url="https://vjkswapp.web.app/"
           roles={roles}
         />
         <ProjectSection padding="top">

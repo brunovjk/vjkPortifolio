@@ -21,7 +21,7 @@ Remix
 Hardhat
 Visual Code
 
-twitter.com/brunovjk
+linkedin.com/in/brunovjk
 github.com/brunovjk
 
 _______________________________________________________________________________

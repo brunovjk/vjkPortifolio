@@ -87,12 +87,12 @@ export const Home = () => {
         sectionRef={projectOne}
         visible={visibleSections.includes(projectOne.current)}
         index={1}
-        title="VjkSwap - ERC20 Playground"
+        title="VjkSwapp - ERC20 Playground"
         description="An app to interact with some common ERC20 functions: check Balance, Send, Wrap and unWrap, Swap (powered by Uniswap) and check transaction history."
         buttonText1="Details"
         buttonLink1="/projects/vjkswap"
         buttonText2="Github"
-        buttonLink2="https://github.com/brunovjk/vjkswap"
+        buttonLink2="https://github.com/brunovjk/vjkswapp"
         model={{
           type: 'phone',
           alt: 'VjkSwap - ERC20 Playground',

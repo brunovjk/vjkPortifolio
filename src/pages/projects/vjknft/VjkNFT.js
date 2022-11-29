@@ -54,7 +54,7 @@ export const VjkNFT = () => {
         <ProjectHeader
           title={title}
           description={description}
-          url="https://vjknft.brunovjk.com/"
+          url="https://vjknft.web.app/"
           roles={roles}
         />
         <ProjectSection padding="top">
