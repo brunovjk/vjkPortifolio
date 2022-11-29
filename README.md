@@ -5,6 +5,9 @@
 
  During the quarantine for COVID-19, I took a break from work and with the resources I accumulated, it was possible to stay at home and study, preparing
 myself for my new career.
+  
+Please check my portfolio:
+brunovjk.web.app
 
 </p>
 
@@ -19,11 +22,7 @@ myself for my new career.
 <p align="left">
   💌 brunovjk@brunovjk.com
 </p>
-<<<<<<< HEAD
 
 <p align="left">
   💻 https://www.linkedin.com/in/brunovjk/
 </p>
-=======
- 
->>>>>>> 706c675e9b593fa78607bf2f311ebb54ae1977b4
