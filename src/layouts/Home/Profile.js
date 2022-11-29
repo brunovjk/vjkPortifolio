@@ -20,7 +20,7 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hey, I’m Bruno" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      A Brazilian Blockchain Developer. I’m fan of technology, entrepreneurship,
+      An Brazilian Blockchain Developer. I’m fan of technology, entrepreneurship,
       programming, but I also enjoy events, hotel services and tourism.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
