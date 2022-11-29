@@ -6,8 +6,7 @@
  During the quarantine for COVID-19, I took a break from work and with the resources I accumulated, it was possible to stay at home and study, preparing
 myself for my new career.
   
-Please check my portfolio:
-https://brunovjk.xyz/
+Please check my [portfolio](https://brunovjk.web.app/)
 
 </p>
 
