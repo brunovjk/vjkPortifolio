@@ -15,7 +15,7 @@ Please check my [portfolio](https://brunovjk.web.app/)
 </p>
 
 <p align="left">
-  💼 Main tools: <strong>NODE.js - React - Solidity - Remix - Hardhat</strong>
+  💼 Main tools: <strong>NODE.js - React - Solidity - Rust - Hardhat</strong>
 </p>
 
 <p align="left">
