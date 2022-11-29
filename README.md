@@ -20,7 +20,7 @@ https://brunovjk.web.app/
 </p>
 
 <p align="left">
-  💌 brunovjk@brunovjk.com
+  💌 brunovjk@gmail.com
 </p>
 
 <p align="left">
