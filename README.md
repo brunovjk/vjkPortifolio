@@ -6,8 +6,7 @@
  During the quarantine for COVID-19, I took a break from work and with the resources I accumulated, it was possible to stay at home and study, preparing
 myself for my new career.
   
-Please check my portfolio:
-https://brunovjk.web.app/
+Please check my [portfolio](https://brunovjk.web.app/)
 
 </p>
 
@@ -16,11 +15,11 @@ https://brunovjk.web.app/
 </p>
 
 <p align="left">
-  💼 Main tools: <strong>NODE.js - React - Solidity - Remix - Hardhat</strong>
+  💼 Main tools: <strong>NODE.js - React - Solidity - Rust - Hardhat</strong>
 </p>
 
 <p align="left">
-  💌 brunovjk@brunovjk.com
+  💌 brunovjk@gmail.com
 </p>
 
 <p align="left">
