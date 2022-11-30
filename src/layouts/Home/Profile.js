@@ -20,14 +20,17 @@ const ProfileText = ({ visible, titleId }) => (
       <DecoderText text="Hey, I’m Bruno" start={visible} delay={500} />
     </Heading>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      An Brazilian Blockchain Developer. I’m fan of technology, entrepreneurship,
-      programming, but I also enjoy events, hotel services and tourism.
+      One of my achievements that makes me most proud was participating in a student group
+      of Aero-Design at the university, since then I have had this dream of being part of
+      a team passionate about what they do and eager to make a difference.
     </Text>
     <Text className={styles.description} data-visible={visible} size="l" as="p">
-      During the quarantine for COVID-19, I took a break from work and with the resources
-      I accumulated, it was possible to stay at home and study, preparing myself to follow
-      my dream of participating in a project that matters, with a group of people
-      fascinated by technology. I’m ready.
+      I followed a tourism career for 5 years, but during the COVID quarantines I saw the
+      opportunity to stay at home studying and preparing myself to fulfill this dream of
+      mine.
+    </Text>
+    <Text className={styles.description} data-visible={visible} size="l" as="p">
+      I`m ready.
     </Text>
   </Fragment>
 );
