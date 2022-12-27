@@ -16,7 +16,7 @@
   💌 brunovjk@gmail.com
 </p>
 <p align="left">
-  💼 Please check my [portfolio](https://brunovjk.com/)
+  💼 https://brunovjk.com
 </p>
 
 <p align="left">
