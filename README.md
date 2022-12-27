@@ -1,7 +1,7 @@
 <img src="https://raw.githubusercontent.com/MicaelliMedeiros/micaellimedeiros/master/image/computer-illustration.png" min-width="400px" max-width="400px" width="400px" align="right" alt="Computador iuriCode">
 
 <p align="left"> 
-  <strong>Bruno Rocha</strong> an Brazilian Blockchain Developer.<br>
+  <strong>Bruno Rocha</strong> an Brazilian Web3 Developer.<br>
 </p>
 
 <p align="left">
