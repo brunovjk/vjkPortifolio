@@ -2,12 +2,6 @@
 
 <p align="left"> 
   <strong>Bruno Rocha</strong> an Brazilian Blockchain Developer.<br>
-
- During the quarantine for COVID-19, I took a break from work and with the resources I accumulated, it was possible to stay at home and study, preparing
-myself for my new career.
-  
-Please check my [portfolio](https://brunovjk.web.app/)
-
 </p>
 
 <p align="left">
@@ -20,6 +14,9 @@ Please check my [portfolio](https://brunovjk.web.app/)
 
 <p align="left">
   💌 brunovjk@gmail.com
+</p>
+<p align="left">
+  💼 Please check my [portfolio](https://brunovjk.com/)
 </p>
 
 <p align="left">
