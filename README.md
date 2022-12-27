@@ -5,11 +5,11 @@
 </p>
 
 <p align="left">
-  🦄 <strong>UI components - Object Oriented Programming - web3</strong>
+  🦄 <strong>UI components - Object Oriented Programming</strong>
 </p>
 
 <p align="left">
-  💼 Main tools: <strong>NODE.js - React - Solidity - Rust - Hardhat</strong>
+  💼 Main tools: <strong>NODE.js - React - Solidity - Ether.js - Solana/web3.js - Hardhat</strong>
 </p>
 
 <p align="left">
