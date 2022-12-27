@@ -9,7 +9,7 @@
 </p>
 
 <p align="left">
-  💼 Main tools: <strong>NODE.js - React - Solidity - Ethers.js - Solana/web3.js - Hardhat</strong>
+  💼 Main tools: <strong>NODE.js - React - Solidity - Ethers.js - Hardhat - Solana/web3.js</strong>
 </p>
 
 <p align="left">
